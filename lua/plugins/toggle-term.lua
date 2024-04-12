@@ -6,6 +6,8 @@ return {
     opts = {
       open_mapping = [[<c-\>]],
       shell = "zsh",
+      direction = "vertical",
+      size = 150,
     },
   },
 }
