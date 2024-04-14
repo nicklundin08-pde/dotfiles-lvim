@@ -1,7 +1,11 @@
 return {
-  { "ellisonleao/gruvbox.nvim" },
   { "joshdick/onedark.vim" },
-  { "shaunsingh/nord.nvim" },
+  {
+    "letieu/btw.nvim",
+    config = function()
+      require("btw").setup()
+    end,
+  },
   {
     "LazyVim/LazyVim",
     opts = {
